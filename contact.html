@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Sean Nance</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Sean Nance</div>
+      <button class="menu-toggle" aria-label="Toggle Menu">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="qa.html">QA Projects</a></li>
+        <li><a href="dev.html">Web Dev Projects</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="certifications.html">Certifications</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Page Banner (Custom Background Area) -->
+  <div class="page-banner" style="background-image: url('images/Backgrounds/galaxy-nature-aesthetic-background-starry-sky-mountain-remixed-media.jpg');">
+    <div class="overlay">
+      <h1>Contact Me</h1>
+      <p>Have a question or want to collaborate? I'd love to hear from you.</p>
+    </div>
+  </div>
+
+  <main class="contact-section">
+    <form action="https://formspree.io/f/xkgqyrgy" method="POST" class="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="_replyto" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="6" required></textarea>
+
+      <button type="submit" class="btn-submit">Send Message</button>
+    </form>
+
+    <div class="socials">
+      <p>Or reach me on:</p>
+      <div class="social-links">
+        <a href="https://linkedin.com/in/seannance/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/Snance1985" target="_blank">GitHub</a>
+        <a href="mailto:sean.paul.nance@gmail.com">Email</a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Sean Nance | QA Engineer & Web Developer</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
